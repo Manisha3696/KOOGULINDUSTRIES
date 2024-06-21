@@ -1,0 +1,32 @@
+
+.container{
+    padding-top:10px;
+    display: flex;
+}
+.container1{
+    height:325px;
+    width:34%;
+    background-color: aqua;
+    transform: skewX(-20deg);
+}
+.container2{
+    height:325px;    
+    width:33%;
+    background-color: rgb(255, 37, 135);
+    transform: skewX(-20deg);
+}
+.container3{
+    height:325px;
+    width:33%;
+    background-color: rgb(255, 22, 22);
+    transform: skewX(-20deg);
+}
+.container2 img{
+    height: 325px;
+    width:100%;
+    /* transform: skewX(-20deg); */
+}
+.container3 img{
+    height:325px;
+    width:100%;
+}
