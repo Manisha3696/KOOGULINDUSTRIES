@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './Components/Header'
 import Home from './Pages/Home'
 import Aboutus from './Pages/Aboutus'
@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-         <Header/>
+        <Header />
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/aboutus' element={<Aboutus/>}></Route>
-          <Route path='/products' element={<Products/>}></Route>
-          <Route path='/contactus' element={<Contactus/>}></Route>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/aboutus' element={<Aboutus />}></Route>
+          <Route path='/products' element={<Products />}></Route>
+          <Route path='/contactus' element={<Contactus />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
