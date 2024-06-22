@@ -1,0 +1,16 @@
+/* .popular-img .images{
+    display: flex;
+}
+.popular-img .images img{
+    height:150px;
+    width:100px;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.popular-img .images img {
+    width: 18%;
+    height: 200px;
+} */

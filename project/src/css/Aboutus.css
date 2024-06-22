@@ -1,50 +1,26 @@
-.container {
-    max-width: 1280;
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-.About-banner {
+/* .main-container{
     max-width: 1280px;
-    width: 100%;
-    height: 350px;
-    padding-top: 100px;
+    width:100%;
+    margin:0 auto;
 }
-
 .About-banner img {
     padding-top: 10px;
     height: auto;
     width: 100%;
+    padding-top:130px;
 }
-
-.text {
+.main-container .About-banner .content .text {
     position: absolute;
-    top: 30%;
+    top: 60%;
     left: 65px;
     transform: translateY(-50%);
     padding: 0 10px;
     font-size: 40px;
     color: #fff;
 }
-.container .content ul {
+.main-container .About-banner .content .menu{
     display: flex;
-    justify-content: normal;
-    gap: 10px;
-    position: absolute;
-    padding-top: 25px;
-    padding-left: 71px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-.container .content ul a {
-    color: rgb(39 14 86);
-    font-size: 15px;
-}
-.container .content .menu {
-    position: absolute;
-    top: 49%;
-    left: 63px;
-    transform: translateY(-50%);
-    padding: 0 30px;
-}
+    justify-content: space-between;
+    gap:10px;
+    color:black;
+} */

@@ -1,4 +1,4 @@
-body{
+/* body{
     height:1200px;
 }
 .header {
@@ -13,21 +13,23 @@ body{
     padding: 0 20px;
     transition: height 0.3s ease;
     z-index: 1000;
+    margin:0 auto;
 }
 .background-image {
-    max-width: 1280;
+    max-width: 1280px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     object-fit: cover;
-    z-index: -1; /* Send background image behind other elements */
+    z-index: -1; 
     transition: height 0.3s ease;
   }
 .header .logo img {
-    height: 100px;
-    width: 15%;
+    height:100;
+    width: 13%;
     padding: 0 50px;
+    filter: drop-shadow(-2px -1px 0px white);
 }
 ul {
     list-style: none;
@@ -43,4 +45,49 @@ ul {
 ul li a{
     text-decoration: none;
     color: white;
-}
+} */
+.navbar {
+    height: 10vh;
+    background: #1b1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+  }
+  
+  .nav-items {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    padding: 6px 16px;
+    border-radius: 5px;
+  }
+  
+  .nav-item a:hover {
+    background: rgb(0, 212, 212);
+  }
