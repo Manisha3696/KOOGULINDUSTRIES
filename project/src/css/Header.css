@@ -25,7 +25,7 @@ body{
     transition: height 0.3s ease;
   }
 .header .logo img {
-    height:120px;
+    height: 100px;
     width: 15%;
     padding: 0 50px;
 }

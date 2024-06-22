@@ -5,6 +5,7 @@ import  '../css/Header.css'
 const Header = () => {
   const [scrollHeight, setScrollHeight] = useState(window.scrollY);
   const [headerHeight, setHeaderHeight] = useState(120);
+
   useEffect(() => {
     const handleScroll = () => {
       setScrollHeight(window.scrollY);
@@ -25,19 +26,18 @@ const Header = () => {
     }
   }, [scrollHeight]);
 
-
   return (
     <div className="header" >
       <img className="background-image" src='./images/Bg.png' alt="" style={{ height: headerHeight }} />
       <div className="logo">
       <img src="./images/logo.png" alt="Logo" className="background-image" style={{ height: headerHeight }}/>
       </div>
-      <ul className="menuitems">
+      <ul className="menu-items" >
               <li><Link to="/">Home</Link></li>
               <li><Link to="/aboutus">About Us</Link></li>
               <li><Link to="/products">Products</Link></li>
               <li><Link to="/contactus">Contact Us</Link></li>
-            </ul>
+      </ul>
     </div>
   );
 };
