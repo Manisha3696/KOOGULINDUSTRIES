@@ -1,0 +1,119 @@
+/* .container {
+  width: 100%;
+  margin: 0px auto;
+} 
+ol,ul{
+list-style: none;
+} 
+a{text-decoration: none;}
+
+.footer1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+  gap:1.5rem;
+  background: #353535;
+   position: relative; 
+  height: 350px;
+  width: 100%;
+
+}.footer-content h4 {
+  color: aliceblue;
+  margin-bottom: 2.5rem;
+  font-size: 27px;
+  margin: 16px 10px;
+}
+.footer-content li{
+  margin-bottom: 16px;
+}
+.footer-content li {
+  display: block;
+  color: aliceblue;
+  font-weight: 400;
+  transition: all.40s ease;
+}
+.footer-content ul li a {
+  display: block;
+  color: aliceblue;
+  font-weight: 400;
+  transition: all .40s ease;
+  text-decoration: none;
+  margin: -2px 0px;
+  padding: 0px 2px;
+}
+.footer-content li a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: aliceblue;
+}
+.footer-content ul li :hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: aliceblue;
+}
+.footer-content ul :hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: aliceblue;
+}
+.icon a{
+  display: inline-block;
+  font-size: 22px;
+  color: aliceblue;
+  margin-right: 17px;
+  transition: all.40s ease;
+}
+.footer-content {
+  margin: 36px 52px;
+}
+.footer-icon {
+  display: flex;
+  margin: 400px 0px;
+}
+.footer-content h3 {
+  color: white;
+  font-size: 18px;
+  margin: 17px 19px;
+}
+.footer-content h2 {
+  color: white;
+  font-size: 18px;
+  margin: 4px 24px;
+}
+.footer-content h5 {
+  color: white;
+  font-size: 12px;
+  margin: 12px 32px;
+}
+.footer-content svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  font-size: 14px;
+}
+
+.icon {
+  display: flex;
+  color: white;
+  margin: 33px 139px;
+  gap: 84px;
+}
+section.footer {
+  padding: 78px 29pz;
+  margin: 87px 0px;
+}
+svg.svg-inline--fa.fa-facebook-f {
+  font-size: 34px;
+  color: #3b5998;
+}
+svg.svg-inline--fa.fa-x-twitter {
+  font-size: 38px;
+}
+svg.svg-inline--fa.fa-instagram {
+  font-size: 38px;
+  color:#E1306C;
+}
+.end {
+  height: 77px;
+  width: 100%;
+  background-color: #000000eb;
+  margin: -89px 0px;
+}
+.end-text h2 {
+  font-size: 20px;
+  color: #9a99a0c9;
+  padding:27px 414px;;
+} */

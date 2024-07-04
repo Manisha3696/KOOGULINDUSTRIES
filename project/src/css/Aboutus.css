@@ -1,26 +1,204 @@
-/* .main-container{
+.main-container {
     max-width: 1280px;
-    width:100%;
-    margin:0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
+
 .About-banner img {
-    padding-top: 10px;
     height: auto;
     width: 100%;
-    padding-top:130px;
+    padding-top: 120px;
+    z-index: 1;
 }
-.main-container .About-banner .content .text {
+
+.main-container .About-banner .content h1 {
+    top: 40%;
+    padding: 0 80px;
     position: absolute;
-    top: 60%;
-    left: 65px;
-    transform: translateY(-50%);
-    padding: 0 10px;
-    font-size: 40px;
-    color: #fff;
+    color: white;
+    font-weight: 800;
 }
-.main-container .About-banner .content .menu{
+
+.main-container .About-banner .content .menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    top: 50%;
+    position: absolute;
+    padding: 0 100px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.main-container .About-banner .content .menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.body-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+    gap: 57px;
+}
+
+.body-container img {
+    height: 350px;
+    width: 45%;
+    border-radius: 10px;
+}
+.para {
+    padding: 10px 0px;
+    line-height: inherit;
+    ;
+}
+
+.body-container2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-container .heading {
+    padding: 20px 0px;
+    color:red;
+}
+.container-slider{
+    max-width: 1100px;
+    width:100%;
+    margin:0 auto;
+    padding-top:100px;
+}
+
+.main-container .swiper {
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    position: relative;
     display: flex;
     justify-content: space-between;
     gap:10px;
-    color:black;
-} */
+    align-items: center;
+}
+
+.swiper .swiper-wrapper .swiper-slide .slide-img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.swiper-free-mode>.swiper-wrapper {
+    transition-timing-function: ease-out;
+    margin: 15px auto;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 10px;
+    z-index: 1;
+    display: block;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, 180px);
+    left: 0;
+    width: 100%;
+}
+.container-slider .card{
+    height:160px;
+}
+.container-slider h1 {
+    color: #8BC34A;
+    text-align: center;
+    padding-bottom:30px;
+}
+.main-container .final-container{
+    max-width:1100px;
+    width:100%;
+    margin:0 auto;
+    padding-top:50px;
+}
+.main-container .final-container h1{
+    text-align: center;
+}
+.main-container .final-container img {
+    width: 20%;
+    height: auto;
+    margin: 0px 442px;
+}
+.main-container .final-container p{
+    max-width: 800px;
+    width:100%;
+    margin:0 auto;
+    padding-top:10px;
+    font-size: 18px;
+
+}
+.main-container .final-container p span{
+    color:red;
+}
+.container1,.container2{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    gap: 35px;
+}
+.main-container .final-container .container1 .sub-container p,.main-container .final-container .container2 .sub-container p{
+    font-size: 15px;
+}
+.main-container .final-container .container3{
+    padding-top: 40px;
+    max-width: 800px;
+    width:100%;
+    margin:0 auto;
+}
+.main-container .final-container .container3 p{
+    font-size: 15px;
+}
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: aliceblue;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-top:100px;
+}
+.main-container .final-container .wrapper .container1,.main-container .final-container .wrapper .container2,.main-container .final-container .wrapper .container3{
+    max-width: 950px;
+    width:100%;
+    margin:0 auto;
+}
+.wrapper .container3 h5, .wrapper .container3 p {
+    text-align: center;
+}
+.sub-container h5, .sub-container p {
+    text-align: center;
+}
+.main-container .final-container p{
+    text-align: center;
+    margin:0 auto;
+}
